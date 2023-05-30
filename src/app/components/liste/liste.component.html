@@ -1,0 +1,4 @@
+<p>liste works!</p>
+<ul *ngIf="data$ | async as items">
+  <li *ngFor='let i of items'>{{i.title}}</li>
+</ul>
